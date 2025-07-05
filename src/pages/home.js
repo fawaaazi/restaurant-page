@@ -31,6 +31,8 @@ export function homePage(){
     const h3SpanSecond = document.createElement("span")
     const h3br = document.createElement("br")
 
+    h3SpanSecond.className = "second-word"
+
     h3SpanFirst.textContent = "Not just chaya... "
     h3SpanSecond.textContent = "it's an era in every sip."
 
