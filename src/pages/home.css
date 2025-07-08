@@ -1,0 +1,49 @@
+
+.home{
+  display: flex;
+  justify-content:space-around;
+  gap: 25px;
+  padding: 40px;
+  
+}
+#home-img{
+  flex: 1;
+
+}
+#home-img img{
+  width: 100%;
+  height: 100vh;
+  border-radius: 5px;
+}
+
+#home-info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+}
+
+#home-info h1 {
+    font-size: 3rem; /* or any size */
+    line-height: 1.2;
+}
+
+#home-info h1 .second-word {
+    display: inline-block;
+    margin-left: 212px;
+    padding-top: 9px; /* shift this value as needed */
+}
+
+
+#home-info h3{
+  color: var(--secondary-white-color);
+}
+
+#home-info h3 .second-word{
+  margin-left: 95px;
+}
+
+#home-info p{
+   line-height: 1.8;
+   color: var(--secondary-white-color);
+}

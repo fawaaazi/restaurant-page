@@ -3,7 +3,7 @@ import "./style.css";
 
 const content = document.getElementById("content")
 
-content.innerHTML = ""
+/*content.innerHTML = ""
 
-content.appendChild(homePage())
+content.appendChild(homePage())*/
 

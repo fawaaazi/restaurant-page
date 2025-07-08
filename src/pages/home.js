@@ -1,4 +1,5 @@
-import mainImg from "./main-img.jpeg"
+import mainImg from "../images/main-img.jpeg"
+import "./home.css";
 
 export function homePage(){
     /*home contents div part */
