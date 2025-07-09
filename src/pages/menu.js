@@ -1,4 +1,5 @@
 import chai from "../images/chai.jpeg"
+import "./menu.css";
 
 function cardMaker(imgSrc,title,description1,description2,upcharge){
     /*outline elements of the card*/
